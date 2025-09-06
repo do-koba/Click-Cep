@@ -4,7 +4,7 @@
 
 Projeto feito para buscar informações de logradouro através do CEP e requisões por API. \
 **API utilizada:** [https://viacep.com.br](https://viacep.com.br)
-Esse projeto foi feita utilizando **Typescript** junto de **React**. \
+Esse projeto foi feita utilizando **Typescript** junto de **React** e **Sass**. \
 Projeto bem simples mas tentando o máximo respeitar as boas práticas.
 
 ## Scripts
