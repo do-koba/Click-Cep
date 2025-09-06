@@ -1,0 +1,23 @@
+@use '../../styles/variables'
+    
+button
+    margin: 1rem 0
+    height: 3.7rem
+    width: 100%
+    background-color: variables.$btn-primary-color
+    color: variables.$font-color
+    cursor: pointer
+    font-size: 1rem
+    border: none
+    border-radius: 6px
+    transition: background-color 0.2s ease, transform 0.1s ease
+
+    &:hover
+        background-color: variables.$btn-hover-color
+
+    &:focus
+        outline: none
+        box-shadow: 0 0 0 3px variables.$btn-hover-color
+
+    &:active
+        transform: scale(1)
